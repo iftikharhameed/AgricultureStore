@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online watch store</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/productdetail.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+
+</head>
+<body>
+
+    <div class="header" id="top-header">
+        
+    </div>
+
+
+
+    <!-- buttom navbar -->
+
+    <nav class="bottom-navbar" id="bottom_header">
+        
+    </nav>
+
+
+
+    <!-- logon form -->
+
+
+    <div class="login-form-container">
+        <div id="close-login-btn" class="fa fa-times"></div>
+        <form action="" id="loginFormSubmit">
+            <h3>sign in</h3>
+            <span>username</span>
+            <input type="text" name="" class="box" placeholder="enter email" id="email" required >
+            <span>password</span>
+            <input type="password" name="" class="box" placeholder="enter password" id="passward" required>
+            <div class="ckeckbox">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <!-- <a class="btn" onclick="validate()">Sign In</a> -->
+            <input type="submit" class="btn" value="Sign In" id="submit">
+            <p>forget password ? <a href="#">Click Here</a></p>
+            <p>Don't have an account ?<a href="signup.html">Create one</a></p>
+        
+        </form>
+        
+        </div>
+        
+
+
+
+
+    <div class="heading">
+        <h1>Product Details</h1>
+        <p> <a href="index.html">home >></a> Product </p>
+    </div>
+    
+    
+
+
+    <section class="section-p1" id="prodetail1">
+
+        <form enctype="multipart/form-data" id="addcart">
+
+            <div class="single-pro-image">
+                
+                <img src="" width="100%" height="310px" id="MainImg" alt="">
+
+                <!-- <div class="small-img-group">
+                    <div class="small-img-col">
+                        <img src="images/spray1.png" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/spray3.png" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/spray2.png" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/spray1.png" width="100%" class="small-img" alt="">
+                    </div>
+                </div> -->
+            </div>
+
+            <div class="single-pro-details">
+                <h4 id="pname">Seed Fertilizer</h4>
+                <h2 id="pprice"></h2>
+                <h5>Product Details</h5>
+                <span id="product_detail">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem sapiente repellat modi eaque, cum laborum atque explicabo saepe velit sequi illum omnis neque nam quam soluta. Vero ex rerum nemo, consequuntur animi doloremque eveniet nostrum nulla atque, nesciunt eos minus!
+                </span>
+                <h5>Avaiable Options</h5>
+                <select name="size" id="psize" required>
+                    <option selected hidden value=""> Select Size</option>
+                    <option value="xl"> XL Size</option>
+                    <option value="large"> large Size</option>
+                    <option value="medium"> Medium Siza</option>
+                    <option value="small"> Small Size</option>
+                </select>
+                <input type="number" value="1" max="100" min="1" name="" id="pquantity" onKeyPress="if(this.value.length==2) return false;">
+                <button type="submit" class="normal"  readonly>Add To Cart</button>
+
+                <button onclick = "window.location.href='./conform_order.html';" class="normal buynow"  readonly>Buy Now</button>
+                
+            </div>
+
+        </form>
+
+
+    </section>
+
+
+    <section class="desc" id="descreption">
+            <div class="head">Description
+            </div>
+            <hr>
+            <div class="body">
+                <p id="product_desc">
+                    Online Agriculture Product Store is an online store that contains all the product that is required in farming and in agriculture.
+                This project will fulfill all aspects of agriculture such as farming seeds, pesticides, fertilizer and hybrid seeds. </p>
+                The main purpose to build this store is to facilitate farmer to buy seeds, pesticides and fertilizers from anywhere through internet connectivity.
+                This project will fulfill all aspects of agriculture such as farming seeds, pesticides, fertilizer and hybrid seeds. 
+                The main purpose to build this store is to facilitate farmer to buy seeds, pesticides and fertilizers from anywhere through internet connectivity.
+                </p>
+            </div>
+            
+    </section>
+
+    <section class="review-section">
+        <h1 class="section-title">whats our <span>customer</span> says about us</h1>
+        <div class="review-container" id="reviews_show">
+
+            <div class="review-card">
+                <div class="user-dp" data-rating="4.9"><img src="images/user.png" alt=""></div>
+                <h2 class="review-title">Best Quality More then my expectation</h2>
+                <p class="review">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus nisi enim aspernatur molestias excepturi quae molestiae sed a neque sapiente.</p>
+            </div>
+
+            <div class="review-card">
+                <div class="user-dp" data-rating="4.9"><img src="images/user.png" alt=""></div>
+                <h2 class="review-title">the Best seller ever for me</h2>
+                <p class="review">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus nisi enim aspernatur molestias excepturi quae molestiae sed a neque sapiente.</p>
+            </div>
+
+            <div class="review-card">
+                <div class="user-dp" data-rating="4.9"><img src="images/user.png" alt=""></div>
+                <h2 class="review-title">reach the delivery on time best review</h2>
+                <p class="review">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus nisi enim aspernatur molestias excepturi quae molestiae sed a neque sapiente.</p>
+            </div>
+
+            <div class="review-card">
+                <div class="user-dp" data-rating="4.9"><img src="images/user.png" alt=""></div>
+                <h2 class="review-title">Best Quality More then my expectation</h2>
+                <p class="review">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus nisi enim aspernatur molestias excepturi quae molestiae sed a neque sapiente.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+    
+    <section class="add-review-section" id="add-review-section">
+        <form enctype="multipart/form-data" id="addreviewform">
+        <h1 class="section-title">Add a review</h1>
+        <input type="text" id="reviewHead" class="review-headline" placeholder="Review Headline" required>
+        <textarea id="reviewBody" class="review-field" placeholder="review" required></textarea>
+        <p class="rating-text"> how much you like the product</p>
+        <div class="star" id="star">
+            <i class="fa fa-star rating-star"></i>
+            <i class="fa fa-star rating-star"></i>
+            <i class="fa fa-star rating-star"></i>
+            <i class="fa fa-star rating-star"></i>
+        </div>
+        <button type="submit" class="add-review-btn" id="review_btn"> Add Review</button>
+
+    </form>
+    </section>
+
+
+
+
+
+
+
+    <section id="product1" class="section-p1 product1">
+        <h2 >Releated Products</h2>
+        <div class="box-container">
+    
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="icons">
+                    <a href="#" class="fa fa-heart"></a>
+                    <a href="#" class="fa fa-share"></a>
+                    <a href="#" class="fa fa-eye"></a>
+                </div>
+                <img src="images/spray3.png" alt="">
+                <h3>pestiside spray</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+                <div class="price"> $10.50 <span> $13.20 </span> </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+    
+    
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="icons">
+                    <a href="#" class="fa fa-heart"></a>
+                    <a href="#" class="fa fa-share"></a>
+                    <a href="#" class="fa fa-eye"></a>
+                </div>
+                <img src="images/spray2.png" alt="">
+                <h3>pestiside spray</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+                <div class="price"> $10.50 <span> $13.20 </span> </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+    
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="icons">
+                    <a href="#" class="fa fa-heart"></a>
+                    <a href="#" class="fa fa-share"></a>
+                    <a href="#" class="fa fa-eye"></a>
+                </div>
+                <img src="images/spray1.png" alt="">
+                <h3>pestiside spray</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+                <div class="price"> $10.50 <span> $13.20 </span> </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+    
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="icons">
+                    <a href="#" class="fa fa-heart"></a>
+                    <a href="#" class="fa fa-share"></a>
+                    <a href="#" class="fa fa-eye"></a>
+                </div>
+                <img src="images/spray3.png" alt="">
+                <h3>pestiside spray</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+                <div class="price"> $10.50 <span> $13.20 </span> </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+    
+            
+    
+            
+        </div>
+    
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="footer" id="bootom-footer">
+
+    </div>
+    
+
+
+
+
+
+
+
+    <script src="./js/productdetail.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/index1.js"></script>
+    <script src="./js/user_login.js"></script>
+    <script src="./js/bottom-footer.js"></script>
+    <script src="./js/bottom_nav.js"></script>
+    <script src="./js/header.js"></script>
+    <script src="./js/cartAdd.js"></script>
+    <script src="./js/product_add_review.js"></script>
+    <script src="./js/product_show_review.js"></script>
+
+
+</body>
+</html>

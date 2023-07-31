@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online watch store</title>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  
+    <div class="header" id="top-header">
+        
+    </div>
+
+
+    <!-- buttom navbar -->
+
+    <nav class="bottom-navbar" id="bottom_header">
+        
+    </nav>
+
+
+
+    <!-- logon form -->
+
+    <div class="login-form-container">
+        <div id="close-login-btn" class="fa fa-times"></div>
+        <form action="" id="loginFormSubmit">
+            <h3>sign in</h3>
+            <span>username</span>
+            <input type="text" name="" class="box" placeholder="enter email" id="email" required>
+            <span>password</span>
+            <input type="password" name="" class="box" placeholder="enter password" id="passward" required>
+            <div class="ckeckbox">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <!-- <a class="btn" onclick="validate()">Sign In</a> -->
+            <input type="submit" class="btn" value="Sign In" id="submit">
+            <p>forget password ? <a href="#">Click Here</a></p>
+            <p>Don't have an account ?<a href="signup.html">Create one</a></p>
+        
+        </form>
+        
+        </div>
+        
+
+   
+
+<!-- home middle starts -->
+
+
+<section class="home">
+
+    <div class="slides-container">
+
+        <div class="slide active">
+            <div class="content">
+                <h3>Product For Tunel farming</h3>
+                <h4>Trusted Product</h4>
+                <span>10% certified organic mix. It involves constructing tunnels like Greenhouses i.e. hut-like</span>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="image">
+                <img src="images/spray1.png" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <h3>Product For Tunel farming</h3>
+                <h3>Trusted Product</h3>
+                <span>10% certified organic mix. It involves constructing tunnels like Greenhouses i.e. hut-like</span>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="image">
+                <img src="images/spray2.png" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <h3>Product For Tunel farming</h3>
+                <h3>Trusted Product</h3>
+                <span>10% certified organic mix. It involves constructing tunnels like Greenhouses i.e. hut-like</span>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="image">
+                <img src="images/spray3.png" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <div id="next-slide" class="fa fa-angle-right" onclick="next()"></div>
+    <div id="prev-slide" class="fa fa-angle-left" onclick="next()"></div>
+
+</section>
+    
+
+<!-- home ends -->
+
+
+<!-- icon starts -->
+<section class="icons-container" >
+    
+    <div class="icons">
+        <i class="fa fa-plane"></i>
+        <div class="content">
+            <h3>free shipping</h3>
+            <p>order only 500</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fa fa-lock"></i>
+        <div class="content">
+            <h3>Secure payment</h3>
+            <p>100% secure</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fa fa-backward"></i>
+        <div class="content">
+            <h3>easy return</h3>
+            <p>10 days return</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fa fa-support"></i>
+        <div class="content">
+            <h3>24/7 support</h3>
+            <p>call any time</p>
+        </div>
+    </div>
+</section>
+<!-- icon ends -->
+
+
+<section id="#product1" class="section-p1 product1" >
+    <div class="featured-nav">
+        <h2 >Fearured <span> Products </span></h2>
+    <div id="select-btn">
+        <a href="#" class="btnn">Fertilizer</a>
+        <a href="#" class="btnn">Seeds</a>
+    </div>
+    </div>
+    <div class="box-container" id="products">
+  
+
+    </div>
+
+</section>
+
+
+<section class="banner-container">
+
+    <div class="banner" >
+        <img src="images/banner1.jpg" alt="">
+        <div class="content">
+            <h3>special offer</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">check out</a>
+        </div>
+    </div>
+
+    <div class="banner" >
+        <img src="images/banner2.jpg" alt="">
+        <div class="content">
+            <h3>limited offer</h3>
+            <p>upto 50% off</p>
+            <a href="#" class="btn">check out</a>
+        </div>
+    </div>
+
+</section>
+
+
+<section id="banner" class="section-m1">
+    <h4 class="sale1">New Arrivals</h4>
+    <h2 class="sale2">up to <span> 70% off </span>  - All of of new stock</h2>
+    <a href="#" class="btn">Explore More</a>
+</section>
+
+
+<section id="product1" class="section-p1 product1" >
+    <h2 >New Arrivals</h2>
+    <p >Get the Best One From Here</p>
+    <div class="box-container" id="product">
+
+      
+
+    </div>
+
+</section>
+
+
+<section class="deal" id="deal" >
+
+    <div class="content">
+
+        <h3 class="title">deal of the day</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam possimus voluptates commodi laudantium! Doloribus sint voluptatibus quaerat sequi suscipit nulla?</p>
+
+        <div class="count-down">
+            <div class="box">
+                <h3 id="day">00</h3>
+                <span>day</span>
+            </div>
+            <div class="box">
+                <h3 id="hour">00</h3>
+                <span>hour</span>
+            </div>
+            <div class="box">
+                <h3 id="minute">00</h3>
+                <span>minute</span>
+            </div>
+            <div class="box">
+                <h3 id="second">00</h3>
+                <span>second</span>
+            </div>
+        </div>
+
+        <a href="#" class="btn">check the deal</a>
+
+    </div>
+
+</section>
+
+
+<!-- category section starts  -->
+
+<section class="select-category" id="select-category" >
+
+    <h1 class="heading">shop by <span>category</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Corn Seeds</h3>
+            <p>upto 50% off</p>
+            <img src="images/corn seed4.jpg" alt="">
+            <a href="cornseed.html" class="btn">shop now</a>
+        </div>
+        <div class="box">
+            <h3>machinery</h3>
+            <p>upto 44% off</p>
+            <img src="images/machine3.jpg" alt="">
+            <a href="machinery.html" class="btn">shop now</a>
+        </div>
+        <div class="box">
+            <h3>seeds</h3>
+            <p>upto 35% off</p>
+            <img src="images/cottonseds5.png" alt="">
+            <a href="seedproduct.html" class="btn">shop now</a>
+        </div>
+        <div class="box">
+            <h3>spray</h3>
+            <p>upto 12% off</p>
+            <img src="images/spray2.png" alt="">
+            <a href="sprayproduct.html" class="btn">shop now</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- category section ends -->
+
+
+
+<section class="newsletter" data-aos="fade-up-right">
+
+    <h3>Stay Updated</h3>
+    <h4>Amet lorem at rebum amet dolores. Elitr lorem dolor sed amet diam labore at justo ipsum eirmod duo labore labore.</h4>
+
+    <form action="">
+        <input class="box" type="email" placeholder="enter your email">
+        <input type="submit" value="subscribe" class="btn">
+    </form>
+
+</section>
+
+
+
+
+<div class="footer" id="bootom-footer">
+
+</div>
+
+
+    <script src="./js/header.js"></script>
+    <script src="./js/index1.js"></script>
+    <script src="./js/user_login.js"></script>
+    <script src="./js/bottom-footer.js"></script>
+    <script src="./js/bottom_nav.js"></script>
+    <script src="./js/index_product.js"></script>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+        AOS.init({
+            offset: 300,
+            duration: 1000,
+        });
+        </script>
+
+</body>
+</html>

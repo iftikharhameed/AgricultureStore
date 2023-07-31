@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online watch store</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+
+</head>
+<body>
+
+    <header class="header" id="top-header">
+
+    </header>
+
+
+    <!-- buttom navbar -->
+
+    <nav class="bottom-navbar" id="bottom_header">
+        
+    </nav>
+
+
+
+    <!-- logon form -->
+
+
+
+
+<!-- header section ends -->
+
+<div class="heading">
+    <h1>Products</h1>
+    <p> <a href="index.html">home >></a> Products </p>
+</div>
+
+
+<section class="all-orders">
+
+    <form enctype="multipart/form-data" id="addOrderform">
+
+        <div class="conform_order">
+
+            <div class="sign_up">
+                <h2>Billing Derails</h2>
+                <div class="sign_up_inner">
+        
+                        <div class="input_name">
+                            <input type="text" placeholder="First Name" name="fname" id="fname" required class="name">
+                            <span>
+                                
+                            <input type="text" placeholder="Last Name" name="lname" id="lname" required class="name">
+                            </span>
+                        </div>
+
+                        <div class="input_name">
+                            <select class="country" value="" name="count" id="country" required>
+                                <option selected hidden value="">Country / Region</option>
+                                <option value="pak">Pakistan</option>
+                                <option val="eng">England</option>
+                                <option value="ind">india</option>
+                                <option value="amer">America</option>
+                            </select>
+                            <div class="arrow"></div>
+                        </div>
+        
+                        <div class="input_name">
+                            
+                            <input type="text" placeholder="Street Address" name="email" id="address" required class="email_name">
+                        </div>
+        
+                        <div class="input_name">
+                            
+                            <input type="text" placeholder="Town/ City" name="email" id="city" required class="email_name">
+                        </div>
+                        
+        
+                        <div class="input_name">
+                            
+                            <input type="number" placeholder="Postal Code" name="password" id="postal" required class="email_name">
+                        </div>
+        
+                        <div class="input_name">
+                            
+                            <input type="number" placeholder="Phone Number" name="password" id="phoneNo" required class="email_name" onKeyPress="if(this.value.length==11) return false;" >
+                        </div>
+
+
+                        <div class="input_name">
+                            
+                            <input type="email" placeholder="Email Address" name="email" id="cemail" required class="email_name">
+                        </div>
+
+        
+                    
+        
+                        
+        
+                
+                </div>
+                
+                
+        
+        
+            </div>
+        
+
+        </div>
+
+        <section id="final_total" class="product1_section section-p1 product1" >
+            
+            <div  class="final_subtotal">
+                <h1>Your Order</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col" width="50px">Product</th>
+                            <th scope="col" width="50px">Subtotal</th>
+                            
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+                        <tr>
+                            <td>Product Subtotal</td>
+                            <td>$<span id="cart_subtotal">0.00</span></td>
+                        </tr>
+                        <tr>
+                            <td>Shipping</td>
+                            <td>Free</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Total</strong></td>
+                            <td><strong>$<span id="cart-total">0.00</span></strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+                        
+            </div>
+
+
+            <div class="chectout_btn">
+                <h3>Cash on delivery</h3>
+                <div class="payment_method">
+                    <h3>Pay with cash upon delivery.</h3>
+                </div>
+
+                <div >
+                    <button type="submit" class="conform_btn" id="conform_btn"> Conform Order</button>
+                </div>
+
+            </div>
+        
+        </section>
+
+    </form>
+
+</section>
+
+
+
+
+
+<!-- onclick = "window.location.href='./order_detail.html';" -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="footer" id="bootom-footer">
+
+</div>
+
+
+
+
+
+
+
+
+    <script src="./js/cartShow.js"></script>
+    <script src="./js/conform_order.js"></script>
+    <script src="./js/index1.js"></script>
+    <script src="./js/bottom-footer.js"></script>
+    <script src="./js/bottom_nav.js"></script>
+    <script src="./js/header.js"></script>
+
+
+
+</body>
+</html>

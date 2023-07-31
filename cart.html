@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online watch store</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+    <header class="header" id="top-header">
+
+        
+
+    </header>
+
+
+    <!-- buttom navbar -->
+
+    <nav class="bottom-navbar" id="bottom_header">
+        
+    </nav>
+
+
+
+    <!-- logon form -->
+
+    <div class="login-form-container">
+        <div id="close-login-btn" class="fa fa-times"></div>
+        <form action="" id="loginFormSubmit">
+            <h3>sign in</h3>
+            <span>username</span>
+            <input type="text" name="" class="box" placeholder="enter email" id="email" required>
+            <span>password</span>
+            <input type="password" name="" class="box" placeholder="enter password" id="passward" required>
+            <div class="ckeckbox">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <!-- <a class="btn" onclick="validate()">Sign In</a> -->
+            <input type="submit" class="btn" value="Sign In" id="submit">
+            <p>forget password ? <a href="#">Click Here</a></p>
+            <p>Don't have an account ?<a href="signup.html">Create one</a></p>
+        
+        </form>
+        
+        </div>
+        
+
+
+
+
+
+<!-- modal for total payment starts -->
+
+<div id="checkout-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h2>Checkout</h2>
+        <p>Customer Name: <span id="customer-name"></span></p>
+        <p>Total: <span id="checkout-total"></span></p>
+        <label for="payment-method">Select Payment Method:</label>
+        <select id="payment-method">
+            <option value="credit-card">Credit Card</option>
+            <option value="paypal">Paypal</option>
+            <option value="bank-transfer">Bank Transfer</option>
+        </select>
+        <button id="submit-order-button">Submit Order</button>
+    </div>
+</div>
+
+<!-- modal ends -->
+
+
+    <!-- cart starts here -->
+    <section id="cart" class="section-p1">
+        <ul id="cart-items"></ul>
+
+
+         <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Images</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody id="pcart">
+               
+            
+            </tbody>
+        </table> 
+
+
+    </section>
+
+
+    <section id="checkout">
+        <div id="subtotal">
+            <h1>Cart Totals</h1>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$<span id="cart_subtotal">0.00</span></td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$<span id="cart-total">0.00</span></strong></td>
+                </tr>
+            </table>
+            <a href="conform_order.html" class="btn" id="checkout-btn">Proceed to check out</a>
+        </div>
+    </section>
+    <!-- cart ends here -->
+
+
+    <div class="footer" id="bootom-footer">
+
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/index1.js"></script>
+    <!-- <script src="./js/cart.js"></script> -->
+    <script src="./js/bottom-footer.js"></script>
+    <script src="./js/bottom_nav.js"></script>
+    <script src="./js/header.js"></script>
+    <script src="./js/user_login.js"></script>
+    <script src="./js/cartShow.js"></script>
+    <script src="./js/cart_delete.js"></script>
+
+
+
+</body>
+</html>

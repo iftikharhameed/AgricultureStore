@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="sign_up">
+        <h2>SIGNUP FORM</h2>
+        <div class="sign_up_inner">
+            <form enctype="multipart/form-data" id="adduser">
+
+                <div class="input_name">
+                   <i class="fa fa-user"></i>
+                    <input type="text" placeholder="First Name" name="fname" id="fname" required class="name">
+                    <span>
+                        <i class="fa fa-user"></i>
+                    <input type="text" placeholder="Last Name" name="lname" id="lname" required class="name">
+                    </span>
+                </div>
+
+                <div class="input_name">
+                    <i class="fa fa-envelope email"></i>
+                     <input type="email" placeholder="Enter Email" name="email" id="email" required class="email_name">
+                 </div>
+
+                 <div class="input_name">
+                    <i class="fa fa-envelope email"></i>
+                     <input type="date" required class="email_name" id="dob" name="dob">
+                 </div>
+                 
+
+                 <div class="input_name">
+                    <i class="fa fa-lock lock"></i>
+                     <input type="password" placeholder="Password" name="password" id="password" required class="email_name">
+                 </div>
+
+                 <div class="input_name">
+                    <i class="fa fa-phone lock"></i>
+                     <input type="number" placeholder="Phone Number" name="password" id="phoneNo" required class="email_name" onKeyPress="if(this.value.length==11) return false;" >
+                 </div>
+
+                 <div class="input_name">
+                     <input type="radio" class="radio_text" name="gender" id="gender" value="Male">
+                     <label> Male</label>
+
+                     <input type="radio" class="radio_text" name="gender" id="gender" value="Female">
+                     <label> Female</label>
+                 </div>
+
+                 <div class="input_name">
+                    <select class="country" value="" name="count" id="country" required>
+                        <option selected hidden value="">Select a country</option>
+                        <option value="pak">Pakistan</option>
+                        <option val="eng">England</option>
+                        <option value="ind">india</option>
+                        <option value="amer">America</option>
+                    </select>
+                    <div class="arrow"></div>
+                </div>
+
+                <div class="input_name">
+                    <input type="checkbox" id="cb" required class="check_box" >
+                    <label for="cb" class="check_lb">I accept all terms and conditions</label>
+                </div>
+
+                <div class="input_name">
+                    <button type="submit" class="sign_button"  readonly> SignUp Now</button>
+                </div>
+
+            </form>
+        </div>
+        
+        <div class="input_name">
+            <label class="already_acc">Already have an account? <a href="index.html" style="color:green">Go to Main page to Login</a></label>
+        </div>
+       
+
+
+    </div>
+
+
+
+
+    <script src="./js/signup.js"></script>
+</body>
+</html>
